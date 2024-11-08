@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Большая книга CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,Cyrillic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href = "css/normalize.css">
+  <link rel="stylesheet" href = "css/skeleton.css">
+  <link rel="stylesheet" href = "css/custom.css">
+  
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="four columns">
+			<p class="logo"> Моя компания </p>
+		</div>
+		<div class="eight columns nav">
+			<a class="button button-primary" href="#">Главная</a>
+			<a class="button" href="01-nav.html">Клиенты</a>
+			<a class="button" href="02-action.html">О нас</a>
+			<a class="button" href="03-info.html">Вакансии</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>|

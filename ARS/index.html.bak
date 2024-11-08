@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Большая книга CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,Cyrillic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href = "css/normalize.css">
+  <link rel="stylesheet" href = "css/skeleton.css">
+  <link rel="stylesheet" href = "css/custom.css">
+  
+</head>
+<body>
+<!-- основной раздел -->
+<div class="section header">
+<div class="container">
+	<div class="row">
+		<div class="four columns">
+			<p class="logo"> Моя компания </p>
+			<img src="images/Valorant_logo_-_pink_color_version_(cropped).png" width="115" height="115" alt="Галерея шляп" class="badge">
+		</div>
+		<div class="eight columns nav">
+			<a class="button button-primary" href="#">Главная</a>
+			<a class="button" href="01-nav.html"> Разрешения экрана</a>
+			<a class="button" href="02-action.html">Гибкие изображения</a>
+			<a class="button" href="03-info.html">Отзывчивые изображения</a>
+		</div>
+	</div>
+	<div class="row action">
+		<h1>Адаптивная вёрстка</h1>
+		<h2>что это и как использовать</h2>
+	</div>
+</div>
+</div>
+
+<!-- раздел контента -->
+<div class="container">
+	<div class="row">
+		
+	</div>
+	<div class="row">
+		
+			<p>Адаптивная вёрстка меняет дизайн страницы в зависимости от поведения пользователя, платформы, размера экрана и ориентации девайса и является неотъемлемой частью современной веб-разработки. Она позволяет существенно экономить и не отрисовывать новый дизайн для каждого разрешения, а менять размеры и расположение отдельных элементов.
+
+В этой статье будут рассмотрены основные элементы сайта и способы их адаптации.</p>
+			<p><a class="button" href="#">Дополнительно</a></p>
+		</div>
+		
+	</div>
+</div>
+<!-- колонтитул -->
+<div class="container">
+	<div class="row">
+		<div class="eight columns">
+			<p>© Моя компания, 2015. Моя компания - это вымышленное название. Любое сходство с реальными компаниями случайно.</p>
+		</div>
+		<div class="four columns">
+			<form>
+				<label for="exampleEmailInput">Подпишитесь на рассылку</label>
+				<input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+				<input class="button-primary" type="submit" value="OK">
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
